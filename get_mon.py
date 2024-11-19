@@ -8,7 +8,6 @@ if __name__ == "__main__":
     for file in files:
         mol_reader = io.MoleculeReader(file)
         reader = mol_reader[0]
-        atoms = reader.atoms
         mol = reader.components[0]
         writer = io.MoleculeWriter("temp.cif")
         writer.write(mol)
