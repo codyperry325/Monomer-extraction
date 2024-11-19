@@ -13,7 +13,7 @@ To create an environment ready for this code use:
 ```
 conda create -n csdpy
 conda install --channel=https://conda.ccdc.cam.ac.uk csd-python-api
-conda install ase
+conda install -c conda-forge ase
 ```
 
 To run the program optimally, ensure get_mon.py is in the folder with the cif file:
