@@ -1,5 +1,5 @@
 # Monomer-extraction
-A program to convert a full CSD recognized CIF file to molecular monomer XYZ file using the CSD and ASE Python libraries.
+A program to convert a full CSD recognized CIF file to molecular monomer XYZ file using the CSD and ASE Python libraries. This code DOES assume there is symmetrically equivalent monomers and thus, only one monomer XYZ file will be created.
 
 To ensure compatibility, verions of ASE and CCDC are:
 ```
